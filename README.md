@@ -8,4 +8,6 @@ I developed Player System & Input System for this game. Player System has moveme
 
 In Input System, i wanted to try Unity's new input system. The player can be controlled by controller & mouse/keyboard. 
 
-[![alt text]([https://i.imgur.com/WXHJHdD.png])](https://youtu.be/U4s-6UySzRc)
+https://github.com/atcnk/project-iw/assets/63428681/32a47456-9ccc-476e-9525-ea4353f8e8f5
+
+There is also Environment System for interactions in general. I was doing something generic with Interfaces. That was the last thing i did before the game was cancelled.
