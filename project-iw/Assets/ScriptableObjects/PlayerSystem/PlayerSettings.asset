@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68d455ba4a0341ac92859a6d5880acb6, type: 3}
+  m_Name: PlayerSettings
+  m_EditorClassIdentifier: 
+  _walkingSpeed: 5
+  _transitionTime: 0.17
+  _directForwardsAngles: {x: -70, y: -110}
+  _rightForwardsAngles: {x: -20, y: -70}
+  _directRightwardsAngles: {x: -160, y: 160}
+  _rightBackwardsAngles: {x: 70, y: 20}
+  _directBackwardsAngles: {x: 110, y: 70}
+  _leftBackwardsAngles: {x: 160, y: 110}
+  _directLeftwardsAngles: {x: 20, y: -20}
+  _leftForwardsAngles: {x: -110, y: -160}
+  _interactionLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  _interactionHalfExtents: {x: 0.3, y: 1, z: 0.3}

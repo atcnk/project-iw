@@ -1,0 +1,169 @@
+{
+    "name": "PlayerInputAction",
+    "maps": [
+        {
+            "name": "PlayerControlActionMap",
+            "id": "4987a120-488d-44a1-82bf-f2ec8ab7626f",
+            "actions": [
+                {
+                    "name": "GamepadMovementAction",
+                    "type": "Value",
+                    "id": "e727fc3b-2f7b-4499-83b4-b2d033b39d68",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "KeyboardMovementAction",
+                    "type": "Value",
+                    "id": "449e46d4-d46e-448e-a7f6-3ce748570d5f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RunningAction",
+                    "type": "Button",
+                    "id": "effbec68-375b-4e96-b43b-983e6c724434",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MouseRotationAction",
+                    "type": "PassThrough",
+                    "id": "0b09c020-ca79-4587-98ae-bf4192e823cd",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GamepadRotationAction",
+                    "type": "PassThrough",
+                    "id": "18259ce5-315b-46eb-9158-349ddab8878e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7dc843bd-0de2-4258-9ac1-0bdf6f8b21fb",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RunningAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "131db48a-065f-478b-993e-a49f5aeb15f9",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RunningAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "05620cb8-6a0c-4252-b13a-cc4769923822",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseRotationAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df74fcfc-6f28-44c0-85b9-cf3f4956da5a",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GamepadMovementAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "WASD",
+                    "id": "c57b8f7b-b2b0-44ac-b8c3-16b37e856067",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyboardMovementAction",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "3aa3bcdc-12b3-4fed-900e-e65d56a7230e",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyboardMovementAction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "a674e1e2-4d59-4f70-b0de-c53056cb1afb",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyboardMovementAction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "f6fd3030-f13f-45aa-9c79-5a9390c1acad",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyboardMovementAction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "810f4208-acbd-4e97-91bd-5a7a46fe53b2",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyboardMovementAction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "96165db6-6b60-47fb-b74c-e538019df5ac",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GamepadRotationAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
