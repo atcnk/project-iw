@@ -8,4 +8,4 @@ I developed Player System & Input System for this game. Player System has moveme
 
 In Input System, i wanted to try Unity's new input system. The player can be controlled by controller & mouse/keyboard. 
 
-[![alt text](https://imgur.com/WXHJHdD)](https://youtu.be/U4s-6UySzRc)
+[![alt text]([https://i.imgur.com/WXHJHdD.png])](https://youtu.be/U4s-6UySzRc)
